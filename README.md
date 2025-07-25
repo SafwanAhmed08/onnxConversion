@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # YOLOv3 Model Conversion
 
 This project provides utilities to convert YOLOv3 models from Darknet format to PyTorch (`.pth`) and ONNX (`.onnx`) formats.
@@ -43,4 +44,3 @@ weights/       # Model weights (.weights, .pth, .onnx)
 
 ## License
 
-This project is for educational and research purposes.
