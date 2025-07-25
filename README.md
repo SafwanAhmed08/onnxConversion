@@ -41,6 +41,3 @@ weights/       # Model weights (.weights, .pth, .onnx)
 
 - Make sure to update the `.gitignore` to avoid committing large weight files.
 - For custom training, replace the weights and cfg files with your own.
-
-## License
-
