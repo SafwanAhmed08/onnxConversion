@@ -32,7 +32,7 @@ def create_modules(module_defs):
                 modules.add_module(f"batch_norm_{i}", nn.BatchNorm2d(filters))
 
             if activation == 'leaky':
-                modules.add_module(f"leaky_{i}", nn.LeakyReLU(0.1))
+                modules.add_module(f"leaky_{i}", nn.LeakyReLU(0.1, inplace= False))
 
             output_filters.append(filters)
 
